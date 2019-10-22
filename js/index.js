@@ -16,9 +16,5 @@ function clickedCopyEmail() {
     document.body.appendChild(el);
     el.select();
     document.execCommand('copy');
-
-    $("#success-alert").fadeTo(2000, 500).slideUp(500, function(){
-        $("#success-alert").slideUp(500);
-    });
     document.body.removeChild(el);
 }
