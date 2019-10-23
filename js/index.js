@@ -1,6 +1,6 @@
 $(function () {
     $('[data-toggle="popover"]').popover()
-  })
+})
 
 
 function clickedCopyEmail() {
@@ -11,7 +11,7 @@ function clickedCopyEmail() {
     // document.execCommand("copy");
 
     // alert("Copied the text: " + copyText.value);
-    const el = document.createElement("textarea");
+    var el = document.createElement("textarea");
     el.value = "kastriegel@gmail.com";
     document.body.appendChild(el);
     el.select();

@@ -9837,6 +9837,10 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
+#copy-email-button {
+  margin-left: 14px;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
