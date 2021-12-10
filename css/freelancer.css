@@ -9853,5 +9853,5 @@ form .row:first-child .floating-label-form-group {
 }
 
 #portfolio .no-hover .portfolio-item {
-  cursor: default;
+  cursor: default !important;
 }

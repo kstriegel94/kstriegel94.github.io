@@ -21,7 +21,7 @@
 #portfolio {
     .no-hover {
         .portfolio-item {
-            cursor: default;
+            cursor: default !important;
         }
     }
 }
